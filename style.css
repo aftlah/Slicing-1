@@ -1,0 +1,192 @@
+@font-face {
+  font-family: hBold ;
+  src: url(assets/fonts/static/HankenGrotesk-Bold.ttf);
+}
+
+@font-face {
+  font-family: hExBold;
+  src: url(assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: hMed;
+  src: url(assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  /* border: 1px solid black; */
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.box {
+  /* border: 1px solid black; */
+  height: 65%;
+  width: 50%;
+  display: flex;
+  box-shadow: 1px 1px 37px -12px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 1px 37px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 37px -12px rgba(0,0,0,0.75);
+  align-items: center;
+  background-color: inherit;
+  border-radius: 25px;
+}
+.container .kiri {
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  background-color: #5230da;
+  height: 100%;
+  width: 52%;
+  text-align: center;
+  position: relative;
+}
+
+.kiri h2 {
+margin: 40px auto;
+color: white;
+font-family: hBold;
+opacity: .7;
+
+}
+
+.kiri .bulet {
+  background: rgb(1,0,11);
+  background: linear-gradient(180deg, rgba(1,0,11,0.23525906944809172) 0%, rgba(82,46,222,1) 100%);
+width: 55%;
+height: 200px;
+display: block;
+border-radius: 50%;
+margin: auto;
+text-align: center;
+position: relative;
+}
+
+.bulet h1 {
+font-size: 6rem;
+color: white;
+font-family: hBold;
+}
+.bulet .pb {
+font-size: 19px;
+color: white;
+padding-top: 1;
+position: absolute;
+left: 39%;
+bottom: 23%;
+font-family: hBold;
+opacity: .3;
+}
+
+.kiri h1 {
+margin: 30px auto 15px;
+color: white;
+font-family: hBold;
+}
+
+.kiri p {
+    color: white;
+    opacity: .7;
+    line-height: 20px;
+}
+
+.container .kanan {
+  text-align: center;
+  border-radius: 0 25px 25px 0;
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 40%;
+  margin: auto;
+}
+
+.kanan h2 {
+    margin: 20px 0;
+    text-align: left;
+    margin-top: 37px;
+    font-family: hbold;
+
+}
+
+.container .kanan ul {
+  list-style-type: none;
+  display: inline;
+  
+}
+
+.container .kanan ul li{
+  padding: 13px ;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    position: relative;
+}
+
+.container .kanan ul li p.text  {
+  position: absolute;
+  font-family: hBold;
+  left: 40px;
+  
+}
+
+.container .kanan ul li p img {
+margin: auto 0;
+
+}
+
+.container .kanan ul li:nth-child(1) {
+  background: rgb(227,75,75);
+background: linear-gradient(180deg, rgba(227,75,75,0.1) 100%, rgba(233,233,233,1) 100%);
+color: rgb(227,75,75); 
+    
+    
+}
+.container .kanan ul li:nth-child(2) {
+  background: rgb(227,226,75);
+  background: linear-gradient(180deg, rgba(227,226,75,0.1) 100%, rgba(233,233,233,1) 100%);
+  color: rgb(218, 192, 28);
+}
+.container .kanan ul li:nth-child(3) {
+  background: rgb(75,227,205);
+  background: linear-gradient(180deg, rgba(75,227,205,0.1) 100%, rgba(233,233,233,1) 100%);
+  color: rgb(45, 178, 158);
+    
+}
+.container .kanan ul li:nth-child(4) {
+  background: rgb(136,75,227);
+  background: linear-gradient(180deg, rgba(136,75,227,0.1) 100%, rgba(233,233,233,1) 100%);
+  color: rgb(136,75,227);
+    
+}
+
+.pv {
+  color: rgb(30, 33, 61);
+  font-family: Hbold;
+}
+
+.pv span {
+  opacity: .2;
+}
+
+button {
+margin: 25px auto 2px auto;
+font-size: 17px;
+padding: 10px 0;
+width: 100%;
+height: 55px;
+font-family: hMed;
+border-radius: 30px;
+background-color: rgb(30, 33, 61);
+color: white;
+cursor: pointer;
+}
